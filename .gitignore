@@ -1,0 +1,5 @@
+# Output folder
+output/*
+
+# tmp folder
+tmp/*
