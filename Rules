@@ -17,6 +17,15 @@ compile '/css/' do
   # don’t filter or layout
 end
 
+compile 'blog/*' do
+  if item.binary?
+    # don’t filter binary items
+  else
+    filter :erb
+    layout 'blog'
+  end
+end
+
 compile '*' do
   if item.binary?
     # don’t filter binary items

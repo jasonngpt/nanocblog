@@ -3,3 +3,6 @@ output/*
 
 # tmp folder
 tmp/*
+
+# log files e.g. crash logs
+*.log
