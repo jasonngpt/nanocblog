@@ -117,11 +117,22 @@ a:hover {
 	margin: 0 auto;
 	padding: 60px 20px 0 60px;
 }
+
+.post h1 {
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 14px;
+}
+
 .post aside {
 	color: #888;
 	padding-bottom: 8px;
 	border-bottom: 1px solid #aaa;
+	font-family: 'Roboto', sans-serif;
+	font-size: 10px;
 }
+
 .post article {
 	margin: 10px 0 60px 0;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
 }
