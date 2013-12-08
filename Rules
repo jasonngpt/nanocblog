@@ -17,6 +17,10 @@ compile '/css/' do
   # don’t filter or layout
 end
 
+compile 'feed/' do
+	filter :erb
+end
+
 compile 'blog/*' do
   if item.binary?
     # don’t filter binary items
@@ -37,6 +41,10 @@ end
 
 route '/css/stylesheet/' do
   '/css/style.css'
+end
+
+route '/feed/' do
+	'/feed.xml'
 end
 
 route '*' do
