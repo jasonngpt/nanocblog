@@ -123,9 +123,15 @@ a:hover {
 	font-size: 14px;
 }
 
+.post inline {
+	color: #888;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+}
+
 .post aside {
 	color: #888;
-	padding-bottom: 8px;
+	padding-bottom: 6px;
 	border-bottom: 1px solid #aaa;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 10px;
