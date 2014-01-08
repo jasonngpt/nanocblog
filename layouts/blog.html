@@ -1,6 +1,6 @@
 <% render 'default' do %>
 	<div class='post'>
-		<h1><%= item[:title] %></h1>
+		<h1><%= link_to item[:title], item.path %></h1>
 		<aside>Posted on: <%= item[:created_at] %></aside>
 		<article>
 			<%= yield %>
