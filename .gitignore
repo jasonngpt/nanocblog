@@ -6,3 +6,6 @@ tmp/*
 
 # log files e.g. crash logs
 *.log
+
+# ruby version for rbenv
+.ruby-version
