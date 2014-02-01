@@ -123,6 +123,11 @@ a:hover {
 	font-size: 14px;
 }
 
+.post h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
 .post inline {
 	color: #888;
 	font-family: 'Open Sans', sans-serif;
